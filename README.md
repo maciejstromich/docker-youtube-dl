@@ -12,6 +12,6 @@ docker-compose build
 
 ## Running 
 ```sh
-make URL=http://youtube.com/watch?v=someyoutubevideohash
+make URL=http://youtube.com/watch?v=someyoutubevideohash download
 ```
 
