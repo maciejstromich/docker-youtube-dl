@@ -7,7 +7,7 @@ Downloads are saved as mp4 files inside current directory
 
 To build the project just execute
 ```sh
-docker-compose build
+make build
 ```
 
 ## Running 
