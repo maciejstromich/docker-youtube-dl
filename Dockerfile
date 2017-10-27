@@ -6,7 +6,7 @@ ADD requirements.txt .
 
 RUN apk update && \
     apk upgrade && \
-    apk add python3 ca-certificates && \
+    apk add python3 ca-certificates ffmpeg && \
     pip3 install -r requirements.txt && \
     rm -rf /var/cache/apk/*
 
